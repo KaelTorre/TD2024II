@@ -9,11 +9,11 @@ import jakarta.persistence.Table;
 
 
 @Entity
-@Table(name = "Usuario")
+@Table(name = "usuario")
 public class UsuarioModel {
     
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //@GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "idusuario")
     public Integer idUsuario;
 
